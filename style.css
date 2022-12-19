@@ -3,5 +3,13 @@
   font-size:15vw;
   font-family:나눔스퀘어;
   text-align:center;
-  padding-top:30vh;
+  padding-top:0vh;
+}
+#date
+{
+  font-size:10vw;
+  font-family:나눔스퀘어;
+  text-align:center;
+  padding-top:20vh;
+  padding-bottom:0vh;
 }
