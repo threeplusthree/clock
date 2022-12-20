@@ -28,8 +28,8 @@ function clo(){
   h+=(String)(d.getSeconds());
   cde.innerHTML=h;
   h='';
-  h+=(String)(d.getYear()+1900)+'-';
-  h+=(String)(d.getMonth()+1)+'-';
+  h+=(String)(d.getYear()+1900)+'. ';
+  h+=(String)(d.getMonth()+1)+'. ';
   h+=(String)(d.getDate());
   dde.innerHTML=h;
 }
