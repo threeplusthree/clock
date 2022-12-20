@@ -30,7 +30,7 @@ function clo(){
   h='';
   h+=(String)(d.getYear()+1900)+'. ';
   h+=(String)(d.getMonth()+1)+'. ';
-  h+=(String)(d.getDate());
+  h+=(String)(d.getDate())+'.';
   dde.innerHTML=h;
 }
 setInterval(clo,10);
